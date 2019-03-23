@@ -1,0 +1,14 @@
+Actividad 0:
+	- 1.- No se ha utilizado la palabra synchronized. No habría ningun cambio.
+
+	- 2.- No, ya que la operación de nadar tiene un tiempo aleatorio y hasta que no termina no ejecuta la operación de "salir" de la piscina.
+
+	- 3.- Realmente no se ha representado.
+	- 4.- No hay transiciones entre estados. Si que pueden, ya que pool0 no tiene restricciones.
+
+Actividad 1:
+- 1.1	Pool1				Hay que esperar si... Modifica estado... Avisa a...
+			kidSwims()		No hay instr. nad.	  Esperar a instr.	 Instr.
+			kidRests()		no espera nunca		  No hay estado 	 Nadie.
+			instructorSwims() no espera nunca	  No hay estado		 Nadie.
+			instructorRest()  Si hay kid nad.	  Esperar a kid		 Nadie.
